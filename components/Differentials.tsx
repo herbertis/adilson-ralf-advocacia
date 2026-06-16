@@ -6,7 +6,7 @@ import {
 import SectionTitle from "@/components/SectionTitle";
 import { DIFFERENTIALS } from "@/lib/data";
 
-const ICON_MAP: Record<string, React.ComponentType<{ size?: number; strokeWidth?: number }>> = {
+const ICON_MAP: Record<string, React.ComponentType<{ size?: number; strokeWidth?: number; className?: string }>> = {
   UserCheck, Target, GraduationCap, Eye, Zap, Trophy
 };
 
