@@ -10,7 +10,7 @@ import {
 import SectionTitle from "@/components/SectionTitle";
 import { SERVICES_HOME } from "@/lib/data";
 
-const ICON_MAP: Record<string, React.ComponentType<{ size?: number; strokeWidth?: number }>> = {
+const ICON_MAP: Record<string, React.ComponentType<{ size?: number; strokeWidth?: number; className?: string }>> = {
   Briefcase, Users, Scale, HeartHandshake, Home,
   Building2, TrendingUp, Hospital, Landmark, Shield
 };
