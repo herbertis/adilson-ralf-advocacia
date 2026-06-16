@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find /Users/herbertishimurasousa/Downloads -maxdepth 2 -type f \\\\\\( -name \"*.jpg\" -o -name \"*.jpeg\" -o -name \"*.png\" \\\\\\) 2>/dev/null | head -20)",
+      "Read(//Users/herbertishimurasousa/Downloads/**)"
+    ]
+  }
+}
